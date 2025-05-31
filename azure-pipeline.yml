@@ -1,0 +1,8 @@
+pr:
+  - main
+
+jobs:
+  - job: lint
+    steps:
+    - checkout: self
+      fetchDepth: 0 
