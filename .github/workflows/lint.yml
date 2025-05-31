@@ -17,4 +17,4 @@ jobs:
           dotnet-version: '8.0.x'
       - name: Formata o arquivo
         run: dotnet format LacunaDevOps.sln
-        working-directory: ./LacunaDevOps
+        working-directory: ./LacunaDevOps/Site
